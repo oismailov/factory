@@ -1,13 +1,13 @@
 <?php
 
-class Hydra
+class Robot
 {
 
     private $weight;
     private $speed;
     private $height;
 
-    public function __construct($w, $h, $s)
+    public function __construct($w, $s, $h)
     {
         $this->setWeight($w);
         $this->setSpeed($s);
